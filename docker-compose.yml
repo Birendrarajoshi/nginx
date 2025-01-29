@@ -3,6 +3,6 @@ services:
     image: nginx
     container_name: nginxserver
     ports:
-      - "9980:80"
+      - "9970:80"
     volumes:
       - .:/usr/share/nginx/html/
